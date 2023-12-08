@@ -1,8 +1,8 @@
-"""Renaming enrolled_date column to date_enrolled column
+"""Renaming the enrolled_date to date_enrolled
 
-Revision ID: 66d576cc7e22
-Revises: 35ab16c4fd2c
-Create Date: 2023-12-08 15:37:26.674345
+Revision ID: a2e2c8ebb099
+Revises: 66d576cc7e22
+Create Date: 2023-12-08 15:45:07.378533
 
 """
 from alembic import op
@@ -10,8 +10,8 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = '66d576cc7e22'
-down_revision = '35ab16c4fd2c'
+revision = 'a2e2c8ebb099'
+down_revision = '66d576cc7e22'
 branch_labels = None
 depends_on = None
 
